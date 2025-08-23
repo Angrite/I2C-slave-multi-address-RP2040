@@ -10,7 +10,7 @@ How to use it:
 - Set pointer to write buffer.
 - Enable desired I2C addresses to send and receive data.
 
-Use pull up resistors (1k to 3.3k)
+Use pull up resistors (1k to 3.3k). Use lower resitor for high speeds
 
 See [main.c](sdk/main.c) with code example. 
 
@@ -111,7 +111,7 @@ Parameters received:
 
 [v1.1](https://github.com/dgatf/I2C-slave-multi-address-RP2040/releases/tag/v1.1)
 - Reduced from 32 pio instructions to 28
-- Increased speed up to 800M  
+- Increased speed up to 2M    
 - Added function i2c_multi_fixed_length to release the bus after length of bytes is sent  
 
 [v1.0](https://github.com/dgatf/I2C-slave-multi-address-RP2040/releases/tag/v1.0)
