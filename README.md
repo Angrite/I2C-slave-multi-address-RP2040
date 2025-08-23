@@ -111,7 +111,7 @@ Parameters received:
 
 [v1.1](https://github.com/dgatf/I2C-slave-multi-address-RP2040/releases/tag/v1.1)
 - Reduced from 32 pio instructions to 28
-- Increased speed up to 1M  
+- Increased speed up to 800M  
 - Added function i2c_multi_fixed_length to release the bus after length of bytes is sent  
 
 [v1.0](https://github.com/dgatf/I2C-slave-multi-address-RP2040/releases/tag/v1.0)
